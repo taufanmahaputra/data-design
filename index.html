@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  <head>
+
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An Article Web">
+    <meta name="author" content="Taufan Mahaputra">
+
+    <!-- Properties Title -->
+    <link rel="shortcut icon" href="images/database.ico" />
+    <title>DataDesign</title>
+
+   
+    <!-- Bootstrap Core CSS -->
+    <link href="stylesheets/bootstrap/bootstrap.min.css" rel="stylesheet" type='text/css'/>
+    <!-- Custom CSS -->
+    <link href="stylesheets/style.css" rel="stylesheet" type='text/css'/>
+    <!-- Custom Fonts -->
+    <link href="stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Script -->
+    <script src="vendor/angular.js"></script>
+  </head>
+  <body ng-app="data-design" ng-controller="MainController">
+
+
+    <!-- Landing Page -->
+    <header id="top" class="header" >
+        <div class="text-vertical-center">
+            <h1>{{ title }}</h1>
+            <h4>Article by Taufan Mahaputra</h4>
+            <br>
+            <br>
+            <a href="#intermezo" class="btn btn-dark btn-lg">What is it ?</a>
+        </div>
+    </header>
+     
+    <!-- Intermezzo -->
+    <section id="intermezo" class="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Stop Guessing!</h1>
+                    <hr class="small">
+                    <p class="lead">Get actual data.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>   
+
+    <!-- Post One -->
+    <section id="post1" class="post bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <p>
+                <strong>The Intersection of Data and Design</strong>
+                mengartikan bahwa data dan design memiliki irisan layaknya sains dan seni. Apabila di kombinasikan maka akan menjadi kesatuan yang sangat dibutuhkan dan juga dinikmati.
+                <br>
+                Di zaman sekarang, data sebagai material kreatif. Yang mana data tidak hanya
+                digunakan sebagai kakas untuk mengumpulkan wawasan, melainkan dapat digunakan untuk desain awal produk sebagai jalur strategi yang kreatif yang biasanya orang lain tidak gunakan.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2">
+            <img src="images/data-visual.jpg" class="img-responsive img-post" alt="Responsive image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <aside class="quote">
+      <blockquote class="text-vertical-center">
+        <h1>In God we trust, all others must bring data.</h1>
+        <footer>W.Edwards Deming</footer>
+       </blockquote>
+    </aside>
+
+
+    <!-- Post Two -->
+    <section id="post2" class="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+            <hr class="small">
+            <p>
+                Cara mendesain dengan data telah berubah tiap waktu dan terus berkembang. Cara yang paling menjadi fokus utama dalam beberapa bidang adalah dengan mengvisualisasi data dari kumpulan data. 
+                <br>
+                Saat kita bekerja dengan data nyata maka bisa dibilang bekerja dengan kenyataan. Dimana hal itu memungkinkan data untuk menginformasikan dan membatasi pekerjaan tersebut. Keputusan pekerjaan tersebut lengkap diinformasikan, rincian implementasi dipertimbangkan dengan cermat, bahkan kasus detail terpecahkan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">  
+                    <hr class="small">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="http://www.facebook.com/taufan.zzz" target="_blank">
+                              <span class="fa-stack fa-lg" style="color:black">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                              </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.instagram.com/basreng" target="_blank">
+                              <span class="fa-stack fa-lg" style="color:black">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                              </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.github.com/taufanmahaputra" target="_blank">
+                              <span class="fa-stack fa-lg" style="color:black">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                              </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="text-muted">Copyright &copy; Taufan Mahaputra 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-md" style="float:right"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+   
+
+
+    <script src="app.js"></script>
+    <script src="controllers/MainController.js"></script>
+    <script src="vendor/angular-strap.js"></script>
+    <script src="vendor/angular-strap.tpl.js"></script>
+    <script src="vendor/angular-messages.js"></script>
+    <script src="vendor/angular-resource.js"></script>
+    <script src="vendor/angular-route.js"></script>
+    <script src="vendor/angular-cookies.js"></script>
+    <script src="vendor/moment.min.js"></script>
+
+  </body>
+</html>
